@@ -33,9 +33,9 @@ def log(filename=None):
     return decoretor
 
 
-@log()
-def my_function(x, y):
-    return x / y
-
-
-my_function(4, 2)
+# @log()
+# def my_function(x, y):
+#     return x / y
+#
+#
+# my_function(4, 2)

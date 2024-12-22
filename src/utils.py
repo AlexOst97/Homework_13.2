@@ -30,8 +30,8 @@ def transaction(json_file: str) -> Any:
         return empty_list
 
 
-print(
-    transaction(
-        r"C:\Users\sanya\PycharmProjects\python_project_dz2\data\operations.json"
-    )
-)
+# print(
+#     transaction(
+#         r"C:\Users\sanya\PycharmProjects\python_project_dz2\data\operations.json"
+#     )
+# )

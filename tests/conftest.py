@@ -163,3 +163,151 @@ def card_number_3():
 @pytest.fixture()
 def card_number_4():
     return "Ошибка ввода"
+
+
+@pytest.fixture
+def filter_transactions_1():
+    return [
+        {
+            "id": "593027",
+            "state": "CANCELED",
+            "date": "2023-07-22T05:02:01Z",
+            "amount": "30368",
+            "currency_name": "Shilling",
+            "currency_code": "TZS",
+            "from": "Visa 1959232722494097",
+            "to": "Visa 6804119550473710",
+            "description": "Перевод с карты на карту",
+        },
+        {
+            "id": "5380041",
+            "state": "CANCELED",
+            "date": "2021-02-01T11:54:58Z",
+            "amount": "23789",
+            "currency_name": "Peso",
+            "currency_code": "UYU",
+            "from": "",
+            "to": "Счет 23294994494356835683",
+            "description": "Открытие вклада",
+        },
+        {
+            "id": "3176764",
+            "state": "CANCELED",
+            "date": "2022-08-24T14:32:38Z",
+            "amount": "16652",
+            "currency_name": "Euro",
+            "currency_code": "EUR",
+            "from": "Mastercard 8387037425051294",
+            "to": "American Express 5556525473658852",
+            "description": "Перевод с карты на карту",
+        },
+    ]
+
+
+@pytest.fixture
+def filter_transactions_2():
+    return [
+        {
+            "id": "593027",
+            "state": "CANCELED",
+            "date": "2023-07-22T05:02:01Z",
+            "amount": "30368",
+            "currency_name": "Shilling",
+            "currency_code": "TZS",
+            "from": "Visa 1959232722494097",
+            "to": "Visa 6804119550473710",
+            "description": "Перевод с карты на карту",
+        },
+        {
+            "id": "5380041",
+            "state": "CANCELED",
+            "date": "2021-02-01T11:54:58Z",
+            "amount": "23789",
+            "currency_name": "Peso",
+            "currency_code": "UYU",
+            "from": "",
+            "to": "Счет 23294994494356835683",
+            "description": "Открытие вклада",
+        },
+        {
+            "id": "3176764",
+            "state": "CANCELED",
+            "date": "2022-08-24T14:32:38Z",
+            "amount": "16652",
+            "currency_name": "Euro",
+            "currency_code": "EUR",
+            "from": "Mastercard 8387037425051294",
+            "to": "American Express 5556525473658852",
+            "description": "Перевод с карты на карту",
+        },
+    ]
+
+
+@pytest.fixture
+def filter_transactions_3():
+    return []
+
+
+@pytest.fixture
+def returned_description_1():
+    return [
+        {
+            "id": 41428829,
+            "state": "EXECUTED",
+            "date": "2019-07-03T18:35:29.512364",
+            "description": "Перевод",
+        },
+        {
+            "id": 939719570,
+            "state": "EXECUTED",
+            "date": "2018-06-30T02:08:58.425572",
+            "description": "Платеж",
+        },
+        {
+            "id": 594226727,
+            "state": "CANCELED",
+            "date": "2018-09-12T21:27:25.241689",
+            "description": "Перевод",
+        },
+        {
+            "id": 615064591,
+            "state": "CANCELED",
+            "date": "2018-10-14T08:21:33.419441",
+            "description": "Платеж",
+        },
+    ]
+
+
+@pytest.fixture
+def returned_description_2():
+    return [
+        {
+            "id": 41428829,
+            "state": "EXECUTED",
+            "date": "2019-07-03T18:35:29.512364",
+            "description": "Перевод",
+        },
+        {
+            "id": 939719570,
+            "state": "EXECUTED",
+            "date": "2018-06-30T02:08:58.425572",
+            "description": "Платеж",
+        },
+        {
+            "id": 594226727,
+            "state": "CANCELED",
+            "date": "2018-09-12T21:27:25.241689",
+            "description": "Перевод",
+        },
+        {
+            "id": 615064591,
+            "state": "CANCELED",
+            "date": "2018-10-14T08:21:33.419441",
+            "description": "Платеж",
+        },
+    ]
+
+
+@pytest.fixture
+def returned_description_3():
+    return []

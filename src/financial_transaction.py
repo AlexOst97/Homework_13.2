@@ -18,7 +18,7 @@ def transactions_csv_file(filename: str) -> Any:
     return ""
 
 
-print(transactions_csv_file("..\\files\\transactions.csv"))
+# print(transactions_csv_file("..\\files\\transactions.csv"))
 
 
 def transactions_xlsx_file(filename: str) -> Any:
@@ -32,4 +32,4 @@ def transactions_xlsx_file(filename: str) -> Any:
     return ""
 
 
-print(transactions_xlsx_file("..\\files\\transactions_excel.xlsx"))
+# print(transactions_xlsx_file("..\\files\\transactions_excel.xlsx"))
